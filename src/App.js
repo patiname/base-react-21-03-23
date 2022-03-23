@@ -1,8 +1,14 @@
+import { Content } from "./01.components/Content";
+
 function App() {
   return (
-    <div>
-      <h1>hihihi</h1>
-    </div>
+    <>
+      <div>123</div>
+      <h1>wow</h1>
+      <input />
+
+      <Content />
+    </>
   );
 }
 
