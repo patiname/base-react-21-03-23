@@ -3,6 +3,7 @@ import ClassComponent from "./02.component/ClassComponent";
 // import FnComponent from "./02.component/FnComponent";
 
 import { Menu } from "./02.component/Menu";
+import { MapFn } from "./03.mapFn/MapFn";
 
 const menus = [
   {
@@ -48,8 +49,10 @@ function App() {
       {/* <Menu orderMenu={menus[0].orderMenu} sideMenu="콜라" />
       <Menu orderMenu="치킨" sideMenu="크림맥주" />
       <Menu orderMenu="파스타" sideMenu="와인" /> */}
+      {/* <Menu orderMenu={menus} /> */}
+      {/* 2일차 */}
 
-      <Menu orderMenu={menus} />
+      <MapFn />
     </>
   );
 }
