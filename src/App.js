@@ -1,37 +1,40 @@
 // import { Content } from "./01.base/Content";
-import ClassComponent from "./02.component/ClassComponent";
+// import ClassComponent from "./02.component/ClassComponent";
 // import FnComponent from "./02.component/FnComponent";
+// import { Menu } from "./02.component/Menu";
+// import { Kakao } from "./03.mapFn/Kakao";
+// import { MapFn } from "./03.mapFn/MapFn";
 
-import { Menu } from "./02.component/Menu";
-import { MapFn } from "./03.mapFn/MapFn";
+import { BoxStyle } from "./04.styledComponent/BoxStyle";
+import { GlobalStyled } from "./styles/GlobalStyled";
 
-const menus = [
-  {
-    id: 0,
-    orderMenu: "피자",
-    sideMenu: "콜라",
-  },
-  {
-    id: 1,
-    orderMenu: "치킨",
-    sideMenu: "사이다",
-  },
-  {
-    id: 2,
-    orderMenu: "삼겹살",
-    sideMenu: "환타",
-  },
-  {
-    id: 3,
-    orderMenu: "파스타",
-    sideMenu: "레몬티",
-  },
-  {
-    id: 4,
-    orderMenu: "족발",
-    sideMenu: "미란다",
-  },
-];
+// const menus = [
+//   {
+//     id: 0,
+//     orderMenu: "피자",
+//     sideMenu: "콜라",
+//   },
+//   {
+//     id: 1,
+//     orderMenu: "치킨",
+//     sideMenu: "사이다",
+//   },
+//   {
+//     id: 2,
+//     orderMenu: "삼겹살",
+//     sideMenu: "환타",
+//   },
+//   {
+//     id: 3,
+//     orderMenu: "파스타",
+//     sideMenu: "레몬티",
+//   },
+//   {
+//     id: 4,
+//     orderMenu: "족발",
+//     sideMenu: "미란다",
+//   },
+// ];
 
 // console.log(menus[0].menu);
 
@@ -52,7 +55,12 @@ function App() {
       {/* <Menu orderMenu={menus} /> */}
       {/* 2일차 */}
 
-      <MapFn />
+      {/* <MapFn /> */}
+      {/* <Kakao /> */}
+      {/* 3일차 */}
+
+      <GlobalStyled />
+      <BoxStyle />
     </>
   );
 }

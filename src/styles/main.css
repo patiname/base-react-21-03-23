@@ -3,6 +3,32 @@
   padding: 0;
 }
 
+li {
+  list-style: none;
+}
+
 /* body {
   background-color: #333;
 } */
+
+.wrap {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con_wrap {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.con_wrap li {
+  width: 30%;
+}
+
+.con_wrap h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
