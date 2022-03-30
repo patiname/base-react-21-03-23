@@ -6,6 +6,9 @@
 // import { MapFn } from "./03.mapFn/MapFn";
 
 import { BoxStyle } from "./04.styledComponent/BoxStyle";
+import { WebContent } from "./04.styledComponent/WebContent";
+import { UseFontAwsome } from "./05.Ex/UseFontAwsome";
+import { webDB } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
 // const menus = [
@@ -60,7 +63,11 @@ function App() {
       {/* 3일차 */}
 
       <GlobalStyled />
-      <BoxStyle />
+      {/* <BoxStyle /> */}
+      {/* <WebContent data={webDB} /> */}
+      {/* 4일차 */}
+
+      <UseFontAwsome />
     </>
   );
 }

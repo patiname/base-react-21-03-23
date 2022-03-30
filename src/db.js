@@ -31,3 +31,24 @@ export const kakaoDb = [
       "우리의 관점, 행동하는 방법, 지향하는 목표까지 카카오스러움은 이미 우리 안에 스며들어 있습니다. 우리가 더 나은 세상을 만들기 위해 고민하면서 자연스럽게 체득한 태도이자 본질이기 때문입니다. 앞으로도 우리는 카카오스러움에서 고민을 시작하고, 답을 찾을 것입니다.",
   },
 ];
+
+export const webDB = [
+  {
+    id: 0,
+    img: "https://media.vlpt.us/images/dksdpdms520/post/367f4f4f-ea5f-4e6f-9c42-2cf76aa8afde/html.png",
+    title: "HTML5",
+    desc: "HTML5는 HTML의 완전한 5번째 버전으로 월드 와이드 웹 의 핵심 마크업 언어이다. 2004년 7월 Web Hypertext",
+  },
+  {
+    id: 1,
+    img: "https://media.vlpt.us/images/dksdpdms520/post/367f4f4f-ea5f-4e6f-9c42-2cf76aa8afde/html.png",
+    title: "CSS3",
+    desc: "HTML5는 HTML의 완전한 5번째 버전으로 월드 와이드 웹 의 핵심 마크업 언어이다. 2004년 7월 Web Hypertext",
+  },
+  {
+    id: 2,
+    img: "https://media.vlpt.us/images/dksdpdms520/post/367f4f4f-ea5f-4e6f-9c42-2cf76aa8afde/html.png",
+    title: "JavaScript",
+    desc: "HTML5는 HTML의 완전한 5번째 버전으로 월드 와이드 웹 의 핵심 마크업 언어이다. 2004년 7월 Web Hypertext",
+  },
+];
