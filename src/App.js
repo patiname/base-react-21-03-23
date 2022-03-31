@@ -8,6 +8,7 @@
 import { BoxStyle } from "./04.styledComponent/BoxStyle";
 import { WebContent } from "./04.styledComponent/WebContent";
 import { UseFontAwsome } from "./05.Ex/UseFontAwsome";
+import { MusicApp } from "./06.musicApp/MusicApp";
 import { webDB } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
@@ -67,7 +68,10 @@ function App() {
       {/* <WebContent data={webDB} /> */}
       {/* 4일차 */}
 
-      <UseFontAwsome />
+      {/* <UseFontAwsome /> */}
+      {/* 5일차 */}
+
+      <MusicApp />
     </>
   );
 }

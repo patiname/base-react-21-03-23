@@ -8,6 +8,10 @@ export const mainFont = {
   descColor: "#808080",
 };
 
+export const border = {
+  raidus: "30px",
+};
+
 export const GlobalStyled = createGlobalStyle`
     ${reset}
 

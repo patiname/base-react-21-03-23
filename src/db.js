@@ -52,3 +52,13 @@ export const webDB = [
     desc: "HTML5는 HTML의 완전한 5번째 버전으로 월드 와이드 웹 의 핵심 마크업 언어이다. 2004년 7월 Web Hypertext",
   },
 ];
+
+export const musicDB = {
+  coverUrl:
+    "https://abduzeedo.com/sites/default/files/styles/square_1x1/public/originals/0ec5c569226647.5b79b483096c1.jpg?itok=e3ASF2Y-",
+  title: "Hey, Boy... Bye",
+  album: "parson",
+  avatar:
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLHEBq5ArLix6bBf2JFkcd0e5M7okqNyAKXA&usqp=CAU",
+  username: "PNcoding",
+};
