@@ -9,6 +9,9 @@ import { BoxStyle } from "./04.styledComponent/BoxStyle";
 import { WebContent } from "./04.styledComponent/WebContent";
 import { UseFontAwsome } from "./05.Ex/UseFontAwsome";
 import { MusicApp } from "./06.musicApp/MusicApp";
+import { ClassEvent } from "./07.event/ClassEvent";
+import { ColorChange } from "./07.event/ColorChange";
+import { FnEvent } from "./07.event/FnEvent";
 import { webDB } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
@@ -71,7 +74,12 @@ function App() {
       {/* <UseFontAwsome /> */}
       {/* 5일차 */}
 
-      <MusicApp />
+      {/* <MusicApp /> */}
+      {/* 6일차 */}
+
+      {/* <ClassEvent /> */}
+      {/* <FnEvent /> */}
+      <ColorChange />
     </>
   );
 }
