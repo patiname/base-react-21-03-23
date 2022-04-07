@@ -12,6 +12,8 @@ import { MusicApp } from "./06.musicApp/MusicApp";
 import { ClassEvent } from "./07.event/ClassEvent";
 import { ColorChange } from "./07.event/ColorChange";
 import { FnEvent } from "./07.event/FnEvent";
+import { Popup } from "./07.event/Popup";
+import { RouterDom } from "./08.router/RouterDom";
 import { webDB } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
@@ -79,7 +81,11 @@ function App() {
 
       {/* <ClassEvent /> */}
       {/* <FnEvent /> */}
-      <ColorChange />
+      {/* <ColorChange /> */}
+      {/* <Popup /> */}
+      {/* 7일차 */}
+
+      <RouterDom />
     </>
   );
 }
