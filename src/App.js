@@ -14,6 +14,7 @@ import { ColorChange } from "./07.event/ColorChange";
 import { FnEvent } from "./07.event/FnEvent";
 import { Popup } from "./07.event/Popup";
 import { RouterDom } from "./08.router/RouterDom";
+import { Form } from "./10.form/Form";
 import { webDB } from "./db";
 import { GlobalStyled } from "./styles/GlobalStyled";
 
@@ -85,7 +86,10 @@ function App() {
       {/* <Popup /> */}
       {/* 7일차 */}
 
-      <RouterDom />
+      {/* <RouterDom /> */}
+      {/* 8~9일차 */}
+
+      <Form />
     </>
   );
 }
